@@ -1,0 +1,16 @@
+#timer {
+    text-align: center;
+    font-size: 70pt; 
+    color: green;
+}
+
+@keyframes animation {
+    from {
+        transform: translate(-10px);
+        opacity: 0.3;
+    }
+    to {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
