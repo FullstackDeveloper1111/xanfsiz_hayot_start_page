@@ -1,7 +1,7 @@
 var leftButton, rightButton = false;
 function myButtonLeft(btn) {
-    btn.style.backgroundColor = "green";
-    btn.style.border = "green";
+    btn.style.backgroundColor = "#0f0";
+    btn.style.border = "#0f0";
     btn.disabled = "true";
 
     leftButton = true;
@@ -11,8 +11,8 @@ function myButtonLeft(btn) {
 }
 function myButtonRight(btn) {
 
-    btn.style.backgroundColor = "green";
-    btn.style.border = "green";
+    btn.style.backgroundColor = "#0f0";
+    btn.style.border = "#0f0";
     btn.disabled = "true";
     rightButton = true;
     if (leftButton && rightButton) {
